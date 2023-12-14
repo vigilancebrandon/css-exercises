@@ -21,7 +21,8 @@ ul {
   padding: 0;
   display: flex;
   flex: 1;
-  gap: 8px
+  gap: 8px;
+  margin: 0 8px;
 }
 
 a {
