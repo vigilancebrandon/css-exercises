@@ -7,10 +7,11 @@ body {
 }
 
 ul {
-  font-size: 18px;
+  font-size: 24px;
   list-style-type: none;
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 8px;
   flex: 1 1 auto;
 }
@@ -21,15 +22,15 @@ a {
 }
 
 .header {
-  font-weight: 800;
-  font-size: 28px;
+  font-weight: 900;
+  font-size: 32px;
   height: 72px;
   background: darkmagenta;
   color: white;
   display: flex;
   justify-content: start;
   align-items: center;
-  padding-left: 12px;
+  padding-left: 16px;
 }
 
 .main-page {
@@ -42,6 +43,8 @@ a {
   height: auto;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .content {
