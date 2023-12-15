@@ -22,7 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   padding: 12px;
-  gap: 16px;
+  gap: 12px;
 }
 
 .icon {
